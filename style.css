@@ -442,6 +442,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
 }
 .newsletter-form{
     width: 40%;
@@ -490,21 +491,22 @@ hr{
     position: relative;
     
 }
-.newsletter-img img{
+
+.newsleter-img{
+    position: relative;
     width: 100%;
 }
-.savings-discount{
+.savings{
     border-radius: 16px;
     background: #FF5400;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
-   
     position: absolute;
-    bottom: 14%;
-    right: 1%;
+    right: 90px;
+    bottom: 50px;
 }
-.savings-discount .web{
+.savings .web{
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -512,7 +514,7 @@ hr{
     padding-top: 10px;
     
 }
-.savings-discount .percentages{
+.savings .persentages{
     color: #FFF;
     font-size: 2rem;
     font-weight: 800;
@@ -703,6 +705,19 @@ footer{
    }
    .trending-container{
     gap: 40px;
+   }
+   .savings{
+    width: 214.023px;
+    height: 79.268px;
+    right: 1px;
+   
+   }
+   .savings .web{
+    font-size: 0.9375rem;
+   }
+   .savings .persentages{
+    font-size: 1rem;
+    margin-top: 0px;
    }
 }
 
