@@ -293,7 +293,7 @@ main section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
     margin-top: 48px;
 }
 p{
@@ -397,7 +397,7 @@ h4{
 }
 .discount .packeages-btn{
     text-align: center;
-    margin: 0 550px;
+    /* margin: 0 550px; */
         border-radius: 8px;
         background: #FF5400;
         color: #FFF;
@@ -406,7 +406,7 @@ h4{
         padding: 14px 42px 14px 42px;
         border: none;
         cursor: pointer;
-        margin: 0 auto;
+        margin-left: 320px;
     
 }
 /* perfect place section */
@@ -461,7 +461,7 @@ hr{
 }
 .nhr{
     background: rgba(19, 19, 24, 0.10);
-    width: 393px;
+    width: 350px;
     height: 1px;
 }
 .subscribe-btn{
@@ -475,11 +475,13 @@ hr{
     padding: 14px 140px;
     margin-top: 24px;
     border: none;
+    width: 350px;
+   
 }
 .news-form input{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    width: 393px;
+    width: 350px;
     height: 52px;
     border: none;
     margin-top: 24px;
@@ -487,13 +489,13 @@ hr{
 }
 .newsletter-img{
     width: 50%;
-    position: relative;
-    
+    position: relative; 
 }
 
 .newsleter-img{
     position: relative;
     width: 100%;
+    height: auto;
 }
 .savings{
     border-radius: 16px;
@@ -502,8 +504,9 @@ hr{
     height: 120px;
     transform: rotate(-19.628deg);
     position: absolute;
-    right: 90px;
-    bottom: 50px;
+    right: 1%;
+    bottom: 14%;
+   
 }
 .savings .web{
     color: #FFF;
@@ -661,6 +664,9 @@ footer{
     h4{
         margin: 0px;
     }
+    .icons{
+        font-size: 8px;
+    }
     .discount2-banner{
         background-image: url("images/discount\ 2\ banner.png");
         background-repeat: no-repeat;
@@ -717,6 +723,12 @@ footer{
    .savings .persentages{
     font-size: 1rem;
     margin-top: 0px;
+   }
+   .discount .packeages-btn{
+    padding: 8px 29px 14px 56px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
    }
 }
 
